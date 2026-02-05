@@ -464,4 +464,75 @@ label{ font-weight: 650; }
   header h1 {
     font-size: 2.5rem;
     }
+
+}
+
+
+@media (hover: none), (max-width: 900px){
+  .card:hover,
+  .feature:hover,
+  .card.pad:hover{
+    transform: none !important;
+  }
+}
+
+/
+@media (max-width: 900px){
+  .header-container,
+  .nav-wrap{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: .75rem;
+    padding: .75rem 0;
+  }
+
+  .site-nav{
+    width: 100%;
+    justify-content: flex-start;
+    gap: .45rem;
+  }
+
+  .site-nav a{
+    display: inline-flex;
+    padding: .5rem .65rem;
+  }
+
+
+  .site-nav .btn{
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+
+@media (max-width: 900px){
+  .hero{ padding: 2.2rem 0 1.2rem; }
+  .hero-wrap{ grid-template-columns: 1fr !important; }
+  .split{ grid-template-columns: 1fr !important; }
+
+  .grid.two{ grid-template-columns: 1fr !important; }
+  .grid.three{ grid-template-columns: 1fr !important; }
+}
+
+
+.rounded-image{
+  border-radius: 40px;
+  height: auto;          
+  max-height: 420px;     
+  width: 100%;
+  object-fit: contain;
+}
+
+@media (max-width: 900px){
+  .rounded-image{
+    max-height: 260px;  
+  }
+}
+
+
+html, body{
+  overflow-x: hidden;
+}
+.container{
+  max-width: 1120px;
 }
