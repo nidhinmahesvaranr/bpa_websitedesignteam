@@ -467,6 +467,62 @@ label{ font-weight: 650; }
 
 }
 
+@media (max-width: 480px) {
+  body {
+    font-size: 0.9rem;
+  }
+
+  .container {
+    width: 100%;
+    padding: 0 1rem;
+  }
+
+  .grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .grid.two,
+  .grid.three {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-wrap {
+    grid-template-columns: 1fr;
+  }
+
+  .btn {
+    padding: 0.6rem 0.8rem;
+    font-size: 0.9rem;
+  }
+
+  .site-nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .site-footer .footer-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .input, textarea {
+    padding: 0.6rem;
+  }
+
+  .section {
+    padding: 1rem 0;
+    height: auto;
+  }
+
+  .feature, .card, .post {
+    padding: 0.9rem;
+  }
+  
+  .rounded-image {
+    height: auto;
+    max-width: 100%;
+  }
+}
 
 
 
