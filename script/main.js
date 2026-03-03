@@ -27,13 +27,13 @@
         <div class="nav-dd-menu" role="menu">
           <a role="menuitem" href="{{ROOT}}disorders/index.html">All Disorders</a>
           <span class="nav-dd-sep" aria-hidden="true"></span>
-          <a role="menuitem" href="{{ROOT}}disorders/anxiety.html">Anxiety</a>
-          <a role="menuitem" href="{{ROOT}}disorders/depression.html">Depression</a>
-          <a role="menuitem" href="{{ROOT}}disorders/adhd.html">ADHD</a>
-          <a role="menuitem" href="{{ROOT}}disorders/autism.html">Autism</a>
-          <a role="menuitem" href="{{ROOT}}disorders/bipolar.html">Bipolar</a>
-          <a role="menuitem" href="{{ROOT}}disorders/schizophrenia.html">Schizophrenia</a>
-          <a role="menuitem" href="{{ROOT}}disorders/dmdd.html">DMDD</a>
+          <a role="menuitem" href="{{ROOT}}disorders/ANXIETY.html">Anxiety</a>
+          <a role="menuitem" href="{{ROOT}}disorders/DEPRESSION.html">Depression</a>
+          <a role="menuitem" href="{{ROOT}}disorders/ADHD.html">ADHD</a>
+          <a role="menuitem" href="{{ROOT}}disorders/AUTISM.html">Autism</a>
+          <a role="menuitem" href="{{ROOT}}disorders/BIPOLAR.html">Bipolar</a>
+          <a role="menuitem" href="{{ROOT}}disorders/SCHIZOPHRENIA.html">Schizophrenia</a>
+          <a role="menuitem" href="{{ROOT}}disorders/DMDD.html">DMDD</a>
         </div>
       </details>
 
@@ -182,3 +182,4 @@
     }
   }
 })();
+
